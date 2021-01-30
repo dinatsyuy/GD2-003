@@ -1,3 +1,87 @@
-body{
-	background-color: #fffcd7;
+body {
+	height: 6000px;
+	margin-top: 60px;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-bottom: 60px;
+}
+
+h1 {
+	font-family: Futura, Trebuchet MS, sans-serif;
+	color: black;
+	text-align: left;
+	margin-bottom: 500px;
+	margin-left: 38px;
+}
+
+div {
+	height: 600px;
+	width: 350px;
+	background-color: #C01823;
+	margin: 40px;
+	transition: all .2s ease-in;
+}
+
+div:hover {
+	background-color: #FFFFFF;
+}
+
+.blue {
+	background-color: #85BDE1;
+	position:absolute;
+	top: 562px;
+	left: 500px;
+    transition: all .2s ease-in;
+}
+
+.blue:hover {
+	background-color: #FFFFFF;
+}
+
+.green {
+	background-color: #00692F;
+	position:absolute;
+	top: 562px;
+	left: 940px;
+	transition: all .2s ease-in;
+}
+
+.green:hover {
+	background-color: #FFFFFF;
+}
+
+.yellow {
+	background-color: #F0EC6B;
+	position: absolute;
+	top:1250px;
+	left:60px;
+	transition: all .2s ease-in;
+}
+
+.yellow:hover {
+	background-color: #FFFFFF;
+}
+
+.navy {
+	background-color: #004E7C;
+	position: absolute;
+	top:1250px;
+	left:500px;
+	transition: all .2s ease-in;
+}
+
+.navy:hover {
+	background-color: #FFFFFF;
+}
+
+.brown {
+	background-color: #9D5B36;
+	position: absolute;
+	top:1250px;
+	left:940px;
+	transition: all .2s ease-in;
+}
+
+.brown:hover {
+	background-color: #FFFFFF;
 }
