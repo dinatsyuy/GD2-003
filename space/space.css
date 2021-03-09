@@ -1,0 +1,582 @@
+* {
+	box-sizing:border-box;
+}
+
+html {
+	font-size:10px;
+	padding-left: 15px;
+	min-width: 9000px;
+	min-height: 600px;
+}
+
+h1 {
+	font-family: 'Spectral', serif;
+	font-size: 4rem;
+	font-weight: 500;
+}
+
+h4 {
+	font-family: 'Spectral', serif;
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+a:link,a:active,a:visited { 
+   color:#000000; 
+   text-decoration:none; 
+}
+
+a:hover {
+	color:#C51F30; 
+}
+
+.two {
+	margin:auto;
+	/*background:red;*/
+	display:grid;
+	grid-template-columns: 200px 1200px;
+}
+
+.thestreet {
+	height:100%;
+	display:grid;
+	grid-template-columns: 3fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr;
+}
+
+.store-01 {
+	background-color: #0F2E15;
+	position: relative;
+	height: 500px;
+	width: 700px;
+	top: 291px;
+}
+
+.first-glass-01 {
+	position: absolute;
+	height: 120px;
+	width: 160px;
+	top:100px;
+	left:40px;
+	background-color: #CCD6E0;
+}
+
+.second-glass-01 {
+	position: absolute;
+	height: 120px;
+	width: 440px;
+	top:100px;
+	left:220px;
+	background-color: #CCD6E0;
+}
+
+.third-glass-01 {
+	position: absolute;
+	height: 260px;
+	width: 160px;
+	top:240px;
+	left:40px;
+	background-color: #CCD6E0;
+}
+
+.fourth-glass-01 {
+	position: absolute;
+	height: 260px;
+	width: 440px;
+	top:240px;
+	left:220px;
+	background-color: #CCD6E0;
+}
+
+.store-02 {
+	background-color: #000000;
+	position: relative;
+	height: 600px;
+	width: 1000px;
+	top: 191px;
+	left:0px;
+}
+
+.first-glass-02 {
+	position: absolute;
+	height: 90px;
+	width: 984px;
+	top:8px;
+	left:8px;
+	background-color: #ffffff;
+}
+
+.second-glass-02 {
+	position: absolute;
+	height: 160px;
+	width: 984px;
+	top:106px;
+	left:8px;
+	background-color: #ffffff;
+}
+
+.third-glass-02 {
+	position: absolute;
+	height: 260px;
+	width: 300px;
+	bottom:0px;
+	left:8px;
+	background-color: #ffffff;
+}
+
+.fourth-glass-02 {
+	position: absolute;
+	height: 260px;
+	width: 300px;
+	bottom:0px;
+	right:8px;
+	background-color: #ffffff;
+}
+
+.store-03 {
+	background-color: #4EB8BB;
+	position: relative;
+	height: 760px;
+	width: 900px;
+	top: 31px;
+	left: 0px;
+}
+
+.first-glass-03 {
+	position: absolute;
+	height: 600px;
+	width: 620px;
+	top:160px;
+	left:140px;
+	background-color: #ffffff;
+}
+
+.second-glass-03 {
+	position: absolute;
+	height: 400px;
+	width: 300px;
+	bottom:0px;
+	left:300px;
+	background-color: #4EB8BB;
+}
+
+.third-glass-03 {
+	position: absolute;
+	height: 374px;
+	width: 120px;
+	bottom:0px;
+	left:320px;
+	background-color: #ffffff;
+}
+
+.fourth-glass-03 {
+	position: absolute;
+	height: 374px;
+	width: 120px;
+	bottom:0px;
+	right:320px;
+	background-color: #ffffff;
+}
+
+.store-04 {
+	background-color: #003462;
+	position: relative;
+	height: 500px;
+	width: 700px;
+	top: 291px;
+	left:0px;
+}
+
+.first-glass-04 {
+	position: absolute;
+	height: 120px;
+	width: 160px;
+	top:100px;
+	left:40px;
+	background-color: #CCD6E0;
+}
+
+.second-glass-04 {
+	position: absolute;
+	height: 120px;
+	width: 440px;
+	top:100px;
+	left:220px;
+	background-color: #CCD6E0;
+}
+
+.third-glass-04 {
+	position: absolute;
+	height: 260px;
+	width: 160px;
+	top:240px;
+	left:40px;
+	background-color: #CCD6E0;
+}
+
+.fourth-glass-04 {
+	position: absolute;
+	height: 260px;
+	width: 440px;
+	top:240px;
+	left:220px;
+	background-color: #CCD6E0;
+}
+
+.store-05 {
+	background-color: #C01823;
+	position: relative;
+	height: 500px;
+	width: 700px;
+	top: 291px;
+	left:0px;
+}
+
+.first-glass-05 {
+	position: absolute;
+	height: 120px;
+	width: 160px;
+	top:100px;
+	left:40px;
+	background-color: #CCD6E0;
+}
+
+.second-glass-05 {
+	position: absolute;
+	height: 120px;
+	width: 440px;
+	top:100px;
+	left:220px;
+	background-color: #CCD6E0;
+}
+
+.third-glass-05 {
+	position: absolute;
+	height: 260px;
+	width: 160px;
+	top:240px;
+	left:40px;
+	background-color: #CCD6E0;
+}
+
+.fourth-glass-05 {
+	position: absolute;
+	height: 260px;
+	width: 440px;
+	top:240px;
+	left:220px;
+	background-color: #CCD6E0;
+}
+
+.store-06 {
+	background-color: #000000;
+	position: relative;
+	height: 600px;
+	width: 1000px;
+	top: 191px;
+	left:0px;
+}
+
+.first-glass-06 {
+	position: absolute;
+	height: 90px;
+	width: 984px;
+	top:8px;
+	left:8px;
+	background-color: #ffffff;
+}
+
+.second-glass-06 {
+	position: absolute;
+	height: 160px;
+	width: 984px;
+	top:106px;
+	left:8px;
+	background-color: #ffffff;
+}
+
+.third-glass-06 {
+	position: absolute;
+	height: 260px;
+	width: 300px;
+	bottom:0px;
+	left:8px;
+	background-color: #ffffff;
+}
+
+.fourth-glass-06 {
+	position: absolute;
+	height: 260px;
+	width: 300px;
+	bottom:0px;
+	right:8px;
+	background-color: #ffffff;
+}
+
+.store-07 {
+	background-color: #FBAD18;
+	position: relative;
+	height: 760px;
+	width: 900px;
+	top: 31px;
+	left: 0px;
+}
+
+.first-glass-07 {
+	position: absolute;
+	height: 600px;
+	width: 620px;
+	top:160px;
+	left:140px;
+	background-color: #ffffff;
+}
+
+.second-glass-07 {
+	position: absolute;
+	height: 400px;
+	width: 300px;
+	bottom:0px;
+	left:300px;
+	background-color: #FBAD18;
+}
+
+.third-glass-07 {
+	position: absolute;
+	height: 374px;
+	width: 120px;
+	bottom:0px;
+	left:320px;
+	background-color: #ffffff;
+}
+
+.fourth-glass-07 {
+	position: absolute;
+	height: 374px;
+	width: 120px;
+	bottom:0px;
+	right:320px;
+	background-color: #ffffff;
+}
+
+.store-08 {
+	background-color: #000000;
+	position: relative;
+	height: 600px;
+	width: 1000px;
+	top: 191px;
+	left:0px;
+}
+
+.first-glass-08 {
+	position: absolute;
+	height: 90px;
+	width: 984px;
+	top:8px;
+	left:8px;
+	background-color: #ffffff;
+}
+
+.second-glass-08 {
+	position: absolute;
+	height: 160px;
+	width: 984px;
+	top:106px;
+	left:8px;
+	background-color: #ffffff;
+}
+
+.third-glass-08 {
+	position: absolute;
+	height: 260px;
+	width: 300px;
+	bottom:0px;
+	left:8px;
+	background-color: #ffffff;
+}
+
+.fourth-glass-08 {
+	position: absolute;
+	height: 260px;
+	width: 300px;
+	bottom:0px;
+	right:8px;
+	background-color: #ffffff;
+}
+
+.store-09 {
+	background-color: #C01823;
+	position: relative;
+	height: 500px;
+	width: 700px;
+	top: 291px;
+	left:0px;
+}
+
+.first-glass-09 {
+	position: absolute;
+	height: 120px;
+	width: 160px;
+	top:100px;
+	left:40px;
+	background-color: #CCD6E0;
+}
+
+.second-glass-09 {
+	position: absolute;
+	height: 120px;
+	width: 440px;
+	top:100px;
+	left:220px;
+	background-color: #CCD6E0;
+}
+
+.third-glass-09 {
+	position: absolute;
+	height: 260px;
+	width: 160px;
+	top:240px;
+	left:40px;
+	background-color: #CCD6E0;
+}
+
+.fourth-glass-09 {
+	position: absolute;
+	height: 260px;
+	width: 440px;
+	top:240px;
+	left:220px;
+	background-color: #CCD6E0;
+}
+
+.store-10 {
+	background-color: #4EB8BB;
+	position: relative;
+	height: 760px;
+	width: 900px;
+	top: 31px;
+	left: 0px;
+}
+
+.first-glass-10 {
+	position: absolute;
+	height: 600px;
+	width: 620px;
+	top:160px;
+	left:140px;
+	background-color: #ffffff;
+}
+
+.second-glass-10 {
+	position: absolute;
+	height: 400px;
+	width: 300px;
+	bottom:0px;
+	left:300px;
+	background-color: #4EB8BB;
+}
+
+.third-glass-10 {
+	position: absolute;
+	height: 374px;
+	width: 120px;
+	bottom:0px;
+	left:320px;
+	background-color: #ffffff;
+}
+
+.fourth-glass-10 {
+	position: absolute;
+	height: 374px;
+	width: 120px;
+	bottom:0px;
+	right:320px;
+	background-color: #ffffff;
+}
+
+.store-11 {
+	background-color: #0F2E15;
+	position: relative;
+	height: 500px;
+	width: 700px;
+	top: 291px;
+}
+
+.first-glass-11 {
+	position: absolute;
+	height: 120px;
+	width: 160px;
+	top:100px;
+	left:40px;
+	background-color: #CCD6E0;
+}
+
+.second-glass-11 {
+	position: absolute;
+	height: 120px;
+	width: 440px;
+	top:100px;
+	left:220px;
+	background-color: #CCD6E0;
+}
+
+.third-glass-11 {
+	position: absolute;
+	height: 260px;
+	width: 160px;
+	top:240px;
+	left:40px;
+	background-color: #CCD6E0;
+}
+
+.fourth-glass-11 {
+	position: absolute;
+	height: 260px;
+	width: 440px;
+	top:240px;
+	left:220px;
+	background-color: #CCD6E0;
+}
+
+.store-12 {
+	background-color: #000000;
+	position: relative;
+	height: 600px;
+	width: 1000px;
+	top: 191px;
+	left:0px;
+}
+
+.first-glass-12 {
+	position: absolute;
+	height: 90px;
+	width: 984px;
+	top:8px;
+	left:8px;
+	background-color: #ffffff;
+}
+
+.second-glass-12 {
+	position: absolute;
+	height: 160px;
+	width: 984px;
+	top:106px;
+	left:8px;
+	background-color: #ffffff;
+}
+
+.third-glass-12 {
+	position: absolute;
+	height: 260px;
+	width: 300px;
+	bottom:0px;
+	left:8px;
+	background-color: #ffffff;
+}
+
+.fourth-glass-12 {
+	position: absolute;
+	height: 260px;
+	width: 300px;
+	bottom:0px;
+	right:8px;
+	background-color: #ffffff;
+}
