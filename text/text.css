@@ -37,6 +37,11 @@ h3 {
 	font-size: 3rem;
 }
 
+img {
+	position: relative;
+	align-items: right;
+}
+
 .main-column {
 	max-width: 1200px;
 	margin:auto;
