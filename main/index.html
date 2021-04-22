@@ -1,47 +1,35 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="text.css">
-
-      <style> 
-         textarea {
-            width: 50%;
-            height: 150px;
-            padding: 12px 20px;
-            box-sizing: border-box;
-            border: 2px solid #589951;
-            border-radius: 12px;
-            background-color: #ffffff;
-            font-size: 20px;
-            font-family: 'Cormorant Garamond', serif;
-            resize: none;
-
-}
-   </style>
+      <title>Make Your Own Postcard</title>    
    </head>
 
 
    <body>
+
       Mediums like email and text messaging arrived on the scene. <br>
       But despite the new technology, postcards are still one of the <br>
       most thoughtful things you can send to someone.<br>
       <h2>Write a postcard to someone or even write to yourself!</h2><br><br><br>
 
-      <img src="postcard01.jpeg" height="600"> <br><br><br><br>
 
-   <form>
-     <textarea placeholder="Your message..."></textarea><br><br>
-     <textarea placeholder="Recipients Name & Address..."></textarea>
-   </form>
+   <div class="container">
+         <img src="postcard01.jpeg" height="600">
+               <textarea id="te1" placeholder="Your message..."></textarea><br><br>
+               <textarea id="te2" placeholder="Recipients Name..."></textarea>
+               <textarea id="te3" placeholder="Address..."></textarea>
+   </div>
 
-
+   <button onclick="saveimg()" class="button" style="vertical-align:middle"><span>SAVE </span></button>
 
    </body>
 
+   <script src="script.js"></script>
    
+
 </html>
 
 
-<script src="script.js"></script>

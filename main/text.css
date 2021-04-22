@@ -17,14 +17,8 @@ strong {
 }
 
 h3 {
-	font-family: 'Spectral', serif;
-}
-
-h1 {
-	font-family: 'Libre Barcode 39 Text', cursive;
-	text-transform: uppercase;
-	font-size: 16rem;
-	min-height: 900px;
+	font-family: 'Mrs Saint Delafield', cursive;
+	font-size: 20px;
 }
 
 h2 {
@@ -33,16 +27,104 @@ h2 {
 	text-transform: uppercase;
 }
 
-h3 {
-	font-size: 5rem;
-	font-weight: normal;
-	font-size: 3rem;
-}
 
-img {
+
+.container {
 	position: relative;
-	align-items: right;
 }
 
+.container img {
+	display: block;
+}
 
+#te1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: transparent;
+    width: 350px;
+    height: 500px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: 'Homemade Apple', cursive;
+   	color: #44493f;
+    resize: none;
+}
 
+#te2 {
+    position: absolute;
+    top: 270px;
+    left: 482px;
+    background-color: transparent;
+    width: 410px;
+    height: 60px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: 'Homemade Apple', cursive;
+    color: #44493f;
+    resize: none;
+}
+
+#te3 {
+    position: absolute;
+    top: 340px;
+    left: 482px;
+    background-color: transparent;
+    width: 410px;
+    height: 210px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: 'Homemade Apple', cursive;
+    color: #44493f;
+    resize: none;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #287b3c;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Cormorant Garamond', serif;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
