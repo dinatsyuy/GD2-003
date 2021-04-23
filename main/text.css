@@ -29,11 +29,11 @@ h2 {
 
 
 
-.container {
+#container {
 	position: relative;
 }
 
-.container img {
+#container img {
 	display: block;
 }
 
@@ -52,6 +52,7 @@ h2 {
     font-family: 'Homemade Apple', cursive;
    	color: #44493f;
     resize: none;
+    display: block;
 }
 
 #te2 {
@@ -69,6 +70,7 @@ h2 {
     font-family: 'Homemade Apple', cursive;
     color: #44493f;
     resize: none;
+    display: block;
 }
 
 #te3 {
@@ -86,6 +88,7 @@ h2 {
     font-family: 'Homemade Apple', cursive;
     color: #44493f;
     resize: none;
+    display: block;
 }
 
 .button {
@@ -102,6 +105,7 @@ h2 {
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
+  vertical-align:middle;
 }
 
 .button span {

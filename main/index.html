@@ -16,20 +16,32 @@
       <h2>Write a postcard to someone or even write to yourself!</h2><br><br><br>
 
 
-   <div class="container">
+   <div id="container">
          <img src="postcard01.jpeg" height="600">
-               <textarea id="te1" placeholder="Your message..."></textarea><br><br>
+               <textarea id="te1" placeholder="Your message..." rows="11" cols="50"></textarea><br><br>
                <textarea id="te2" placeholder="Recipients Name..."></textarea>
                <textarea id="te3" placeholder="Address..."></textarea>
    </div>
 
-   <button onclick="saveimg()" class="button" style="vertical-align:middle"><span>SAVE </span></button>
+      <p>
+      To screenshot: <br>
+      Apple: Command + Shift + 4 <br>
+      Window: Windows + Shift + S </p>
+
+   <button onclick="screenshot()" class="button"><span>SAVE </span></button>
+   <script src="html2canvas.js"></script>
+   <script>
+      function screenshot(){
+      window.scrollTo(0,0);
+      html2canvas(document.getElementById('container')).then(function(canvas){
+         document.body.appendChild(canvas)
+      })
+
+      
+   }
+   </script>
+
 
    </body>
 
-   <script src="script.js"></script>
-   
-
 </html>
-
-
