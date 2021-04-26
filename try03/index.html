@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="text.css">
+      <title>Make Your Own Postcard</title>    
+   </head>
+
+
+   <body>
+
+      Mediums like email and text messaging arrived on the scene. <br>
+      But despite the new technology, postcards are still one of the <br>
+      most thoughtful things you can send to someone.<br>
+      <h2>Write a postcard to someone or even write to yourself!</h2><br><br><br>
+
+
+   <div id="container">
+         <img src="postcard01.jpeg" height="600">
+               <textarea id="te1" placeholder="Your message..." rows="11" cols="50"></textarea><br><br>
+               <textarea id="te2" placeholder="Recipients Name..."></textarea>
+               <textarea id="te3" placeholder="Address..."></textarea>
+   </div>
+
+      <p>
+      To screenshot: <br>
+      Apple: Command + Shift + 4 <br>
+      Window: Windows + Shift + S </p>
+
+   <button onclick="screenshot()" class="button"><span>SAVE </span></button>
+   <script src="html2canvas.js"></script>
+   <script>
+      function screenshot(){
+      window.scrollTo(0,0);
+      html2canvas(document.getElementById('container')).then(function(canvas){
+         document.body.appendChild(canvas)
+      })
+
+      
+   }
+   </script>
+
+
+   </body>
+
+</html>

@@ -4,16 +4,14 @@
 
 html {
 	font-size:10px;
+  background-color: #000;
+  color:#fff;
 }
 
 body {
 	font-family: 'Cormorant Garamond', serif;
 	font-size:2rem;
 	padding: 100px;
-}
-
-strong {
-	font-size:2rem;
 }
 
 h3 {
@@ -27,22 +25,49 @@ h2 {
 	text-transform: uppercase;
 }
 
-
-
-#container {
-	position: relative;
+h2.po {
+  color:#000;
+  position:absolute;
+  left:480px;
+  top:0px;
+  font-size:50px;
 }
 
-#container img {
-	display: block;
+.rec-01 {
+  height:800px;
+  width: 1200px;
+  background-color: #ffffff;
+  position: relative;
+  z-index: -1;
+}
+
+img.postage09 {
+  position: absolute;
+  top:50px;
+  right:50px;
+}
+
+img.stamp01 {
+  position: absolute;
+  top:170px;
+  right:160px;
+}
+
+.division-01 {
+  height:600px;
+  width: 2px;
+  position: absolute;
+  background-color: #000;
+  top:140px;
+  left:600px
 }
 
 #te1 {
     position: absolute;
-    top: 50px;
-    left: 50px;
+    top: 500px;
+    left: 200px;
     background-color: transparent;
-    width: 350px;
+    width: 450px;
     height: 500px;
     padding: 12px 20px;
     box-sizing: border-box;
@@ -50,17 +75,17 @@ h2 {
     border-radius: 12px;
     font-size: 20px;
     font-family: 'Homemade Apple', cursive;
-   	color: #44493f;
+    color: #44493f;
     resize: none;
     display: block;
 }
 
 #te2 {
     position: absolute;
-    top: 270px;
-    left: 482px;
+    top: 730px;
+    left: 760px;
     background-color: transparent;
-    width: 410px;
+    width: 450px;
     height: 60px;
     padding: 12px 20px;
     box-sizing: border-box;
@@ -75,11 +100,11 @@ h2 {
 
 #te3 {
     position: absolute;
-    top: 340px;
-    left: 482px;
+    top: 800px;
+    left: 760px;
     background-color: transparent;
-    width: 410px;
-    height: 210px;
+    width: 450px;
+    height: 200px;
     padding: 12px 20px;
     box-sizing: border-box;
     border: transparent;
