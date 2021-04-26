@@ -1,0 +1,158 @@
+* {
+	box-sizing:border-box;
+}
+
+html {
+	font-size:10px;
+}
+
+body {
+	font-family: 'Cormorant Garamond', serif;
+	font-size:2rem;
+	width: 550px;
+	background-color: #000;
+}
+
+h1 {
+	font-family: 'Cormorant Garamond', serif;
+	text-transform: uppercase;
+	font-size: 18rem;
+}
+
+h2 {
+	position: absolute;
+	top:15px;
+	left:480px;
+	width:450px;
+	font-size:50px;
+}
+
+img.postage02 {
+	position: absolute;
+	top:50px;
+	right:50px;
+}
+
+img.postage08 {
+	position: absolute;
+	top:50px;
+	right:50px;
+}
+
+img.stamp01 {
+	position: absolute;
+	top:170px;
+	right:230px;
+}
+
+img.stamp02 {
+	position: absolute;
+	top:200px;
+	right:170px;
+}
+
+.p1, .p2 {
+	position: absolute;
+	top:120px;
+	left:80px;
+	text-align: left;
+	width:460px;
+}
+
+.links01 {
+	position: absolute;
+	top:630px;
+	right:80px;
+	text-align: right;
+}
+
+.links02 {
+	position: absolute;
+	top:560px;
+	right:80px;
+	text-align: right;
+	line-height:60px;
+}
+
+.links03 {
+	text-align: left;
+	font-size:50px;
+}
+
+.second {
+	width:550px;
+	top: -800px;
+	display: grid;
+	grid-auto-columns: 1fr 1fr;
+}
+
+.rec-01 {
+	height:800px;
+	width: 1200px;
+	background-color: #ffffff;
+	position: relative;
+	margin:auto;
+	z-index: -1;
+}
+
+.rec-02 {
+	height:800px;
+	width: 1200px;
+	background-color: #ffffff;
+	position: relative;
+	margin:auto;
+	z-index: -1;
+	top: 200px;
+}
+
+.division-01, .division-02 {
+	height:600px;
+	width: 2px;
+	position: absolute;
+	background-color: #000;
+	top:140px;
+	left:600px
+}
+
+
+.first-line-01, .first-line-02 {
+	position: absolute;
+	height: 2px;
+	width: 440px;
+	top:500px;
+	right:80px;
+	background-color: #000;
+	z-index: 1;
+}
+
+.second-line-01, .second-line-02 {
+	position: absolute;
+	height: 2px;
+	width: 440px;
+	top:560px;
+	right:80px;
+	background-color: #000;
+	z-index: 1;
+}
+
+.third-line-01, .third-line-02 {
+	position: absolute;
+	height: 2px;
+	width: 440px;
+	top:620px;
+	right:80px;
+	background-color: #000;
+	z-index: 1;
+}
+
+.fourth-line-01, .fourth-line-02 {
+	position: absolute;
+	height: 2px;
+	width: 440px;
+	top:680px;
+	right:80px;
+	background-color: #000;
+	z-index: 1;
+}
+
+
