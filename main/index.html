@@ -15,7 +15,7 @@
       most thoughtful things you can send to someone.<br>
       <h2>Write a postcard to someone or even write to yourself!</h2><br><br><br>
 
-<div class="rec-01">
+<div id="rec-01">
             
             <img src="postage09.png" class="postage09" style="height:15em">
             <img src="stamp01.png" class="stamp01" style="height:8em">
@@ -37,7 +37,7 @@
    <script>
       function screenshot(){
       window.scrollTo(0,0);
-      html2canvas(document.getElementById('rec-01')).then(function(canvas){
+      html2canvas(document.getElementByClass('rec-01')).then(function(canvas){
          document.body.appendChild(canvas)
       })
 
